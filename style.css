@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEEEEE;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  background-color: #758694;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+h3 {
+  color: #3A6D8C;
+}
+p {
+  color: #ffcc79;
+
+}
+h2{
+  color: #3A6D8C;
+
+}
+label{
+  color: #3A6D8C;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.box img {
+  background-color: rgba(225, 225, 232, 0.8); /* Biru dengan 80% opacity */
+  width: 350px;
+  height: 400px;
+  border-radius: 25%;
+  box-shadow: 5px 5px 5px #aeb0ae, -5px -5px 5px #aeb0ae;
+}
+
+.box-about img {
+  background-color: rgba(225, 225, 232, 0.8); /* Biru dengan 80% opacity */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #aeb0ae, -5px -5px 5px #aeb0ae;
+}
+
+
+
+/* about me */
+.containerr {
+  width: 100%;
+  min-width: 200px;
+  max-width: 250px;
+  height: 450px;
+  margin: -4rem 1rem auto;
+  display: inline-block
+}
+.silhouette {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: auto;
+}
+.silhouette .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.cardr {
+  background-color: white;
+  height: calc(100% - 150px);
+  align-self: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40%;
+  box-shadow: 0px 0px 12px -1px black;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.information {
+  background-color: white;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+}
+
+#BulbasaurInfo {
+  border-top: 10px solid #9eaebf;
+  border-bottom: 10px solid #9eaebf;
+}
+
+#BulbasaurName {
+  border-bottom: dashed 2px #9eaebf;
+}
+
+
+.information p{
+  text-align: center;
+}
+
+/* end about me */
+
+/* table */
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  padding: 20px;
+  box-shadow: -5px -5px 10px #aeb0ae, 5px 5px 10px #aeb0ae;  
+  border-radius: 25px;
+  background-color: #ffffff;
+  
+}
+  
+
+
+th,
+td {
+  border: 1px solid #631010;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3A6D8C;
+  height: 50px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Playpen Sans", sans-serif;
+  font-size: 20px;
+}
+
+td {
+  background-color: #758694;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Sniglet", sans-serif;
+}
+
+/* end table  */
+
+/* project */
+.project{
+  background-color: #758694;
+  border-radius: 10px;
+ 
+}
+ .card .judul{
+  color:#3A6D8C ;
+}
+/* end project */
+
+/* galeri */
+.container-gal{
+  background-color: #9eaebf;
+  padding: 2rem;
+  border-radius: 25px;
+}
+.container-gal h2{
+  color: #ffff;
+}
+/*  */
